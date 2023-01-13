@@ -1,0 +1,5 @@
+c=int(input('Quantos metros essa parede tem de largura?'))
+alt=int(input('Quantos metros de altura?'))
+a1=(c*alt)
+a2=(a1//2)
+print('Então para pintar {} M² de parede,\nSerão necessarios {} litros de tinta!'.format(a1, a2))

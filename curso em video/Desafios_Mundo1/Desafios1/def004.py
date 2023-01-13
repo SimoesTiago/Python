@@ -1,0 +1,6 @@
+n=input('Digite algo')
+print(type(n))
+print(('É uma palavra?'),n.isalpha())
+print(('E um número?'),n.isalnum())
+print(n.isupper())
+print(n.isidentifier())
