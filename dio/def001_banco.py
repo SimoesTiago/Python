@@ -7,17 +7,18 @@ lim_saque = 3
 extratos = {}
 extrato = list()
 
-print(' \033[1mBANCO SIMON\033[m '.center(30, '='))
-print('-' * 30)
-print ('''Escolha a opção desejada:
-    [1] SAQUE
-    [2] DEPÓSITO
-    [3] EXTRATO
-    [4] SALDO
-
-    [0] para SAIR''')
-print('-' * 30)
 while True:
+    print()
+    print(' \033[1mBANCO SIMON\033[m '.center(30, '='))
+    print('-' * 30)
+    print ('''Escolha a opção desejada:
+        [1] SAQUE
+        [2] DEPÓSITO
+        [3] EXTRATO
+        [4] SALDO
+
+        [0] para SAIR''')
+    print('-' * 30)
     try:
         menu = int(input('\033[33mOpção Menu\033[m => '))
         if menu == 1:
